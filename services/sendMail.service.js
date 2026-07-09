@@ -15,6 +15,5 @@ export const sendMail = (name, email, otp) => {
     })
     .then((info, err) => {
       if (err) throw new Error(err.message);
-      console.log(info);
     });
 };

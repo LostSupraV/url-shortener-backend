@@ -16,9 +16,7 @@ const corsOptions = {
 
 const app = express();
 
-app.use(cors());
-
-// app.use(arcjectMiddleware);
+app.use(cors(corsOptions));
 
 app.all('/api/auth/{*any}', toNodeHandler(auth));
 app.use(express.json());

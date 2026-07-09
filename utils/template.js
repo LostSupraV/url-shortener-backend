@@ -20,7 +20,7 @@ This code will expire in ${expiryMinutes} minutes.
 If you didn't request this verification, you can safely ignore this email.
 
 Thanks,
-Your Team
+URL Shortener
 `,
 
     html: `
@@ -91,7 +91,7 @@ Your Team
           <tr>
             <td style="padding-top:35px;border-top:1px solid #eee;font-size:14px;color:#999;">
               Thanks,<br>
-              <strong>Your Team</strong>
+              <strong>URL Shortener</strong>
             </td>
           </tr>
 

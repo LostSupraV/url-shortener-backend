@@ -5,7 +5,7 @@ export const connectDB = async () => {
   try {
     const uri = mongo_shortener_uri;
     await mongoose.connect(uri);
-    console.log("Connected to MongoDB");
+    console.log("MONGODB ATLAS: Connection Established");
   } catch (error) {
     console.error("Error connecting to MongoDB:", error);
   }
