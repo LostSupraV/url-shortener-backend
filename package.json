@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Rishi",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@arcjet/inspect": "^1.6.1",
+    "@arcjet/node": "^1.6.1",
+    "better-auth": "^1.6.23",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.4.0",
+    "mongoose": "^9.7.3",
+    "nanoid": "^5.1.16",
+    "nodemailer": "^9.0.3"
+  }
+}
