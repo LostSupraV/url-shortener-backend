@@ -10,3 +10,4 @@ export const better_auth_url = process.env.BETTER_AUTH_URL || "http://localhost:
 export const mongo_shortener_uri = process.env.MONGO_SHORTENER_URI || "";
 export const nodemail_user = process.env.NODEMAIL_USER || "";
 export const nodemail_pass = process.env.NODEMAIL_PASS || "";
+export const frontend_url = process.env.FRONTEND_ACCESS

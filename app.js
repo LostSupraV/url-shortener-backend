@@ -1,6 +1,6 @@
 import express from "express";
 import urlRouter from "./routes/url.route.js";
-import { mode, port } from "./env/env.js";
+import { frontend_url, mode, port } from "./env/env.js";
 import { connectDB } from "./config/mongo.config.js";
 import cors from "cors";
 import errorHandler from "./middlewares/errorHandling.middleware.js";
@@ -10,7 +10,7 @@ import arcjectMiddleware from "./middlewares/arcjet.middleware.js";
 import { requireAuth } from "./middlewares/auth.middleware.js";
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: frontend_url,
   credentials: true
 };
 

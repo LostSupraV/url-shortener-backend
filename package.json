@@ -4,11 +4,10 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "Rishi",
+  "author": "artic_guana",
   "license": "ISC",
   "type": "module",
   "dependencies": {
