@@ -24,7 +24,10 @@ app.all('/api/auth/{*any}', toNodeHandler(auth));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/api/urls", requireAuth, urlRouter);
-
+app.get("/", (req, res) => {
+  res.send("I am Up and Running")
+}
+)
 app.use(errorHandler);
 
 app.listen(port, () => {
